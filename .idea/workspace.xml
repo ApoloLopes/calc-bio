@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1dad8794-01a7-4ba9-ad43-05edb45c682d" name="Default Changelist" comment="" />
+    <list default="true" id="1dad8794-01a7-4ba9-ad43-05edb45c682d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml___jb_tmp___" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data.csv" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,13 +15,13 @@
     <session id="1784049717">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="5" />
           <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.18" value="1" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.open.time.7" value="2" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -33,12 +36,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="2521" />
+          <entry key="py" value="2524" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="2521" />
+          <entry key="Python" value="2524" />
         </counts>
       </usages-collector>
     </session>
@@ -48,22 +51,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/dimensionamento_biodigestor.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1921">
-              <caret line="113" lean-forward="true" selection-start-line="143" selection-start-column="65" selection-end-line="143" selection-end-column="66" />
-              <folding>
-                <marker date="1612206529608" expanded="true" signature="571:580" ph="..." />
-                <marker date="1612206529608" expanded="true" signature="698:707" ph="..." />
-                <marker date="1612206529608" expanded="true" signature="908:917" ph="..." />
-                <marker date="1612206529608" expanded="true" signature="1057:1066" ph="..." />
-                <marker date="1612206529608" expanded="true" signature="1119:1128" ph="..." />
-                <marker date="1612206529608" expanded="true" signature="1119:1170" ph="..." />
-                <marker date="1612206529608" expanded="true" signature="1228:1237" ph="..." />
-                <marker date="1612206529608" expanded="true" signature="1346:1355" ph="..." />
-                <marker date="1612206529608" expanded="true" signature="1440:1441" ph="..." />
-                <marker date="1612206529608" expanded="true" signature="1440:1450" ph="..." />
-                <marker date="1612206529608" expanded="true" signature="1563:1564" ph="..." />
-                <marker date="1612206529608" expanded="true" signature="1563:1573" ph="..." />
-              </folding>
+            <state relative-caret-position="170">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
             </state>
           </provider>
         </entry>
@@ -76,6 +65,9 @@
         <option value="Python Script" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -189,14 +181,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1748512" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.21440262" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.21440262" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -237,22 +228,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/dimensionamento_biodigestor.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1921">
-          <caret line="113" lean-forward="true" selection-start-line="143" selection-start-column="65" selection-end-line="143" selection-end-column="66" />
-          <folding>
-            <marker date="1612206529608" expanded="true" signature="571:580" ph="..." />
-            <marker date="1612206529608" expanded="true" signature="698:707" ph="..." />
-            <marker date="1612206529608" expanded="true" signature="908:917" ph="..." />
-            <marker date="1612206529608" expanded="true" signature="1057:1066" ph="..." />
-            <marker date="1612206529608" expanded="true" signature="1119:1128" ph="..." />
-            <marker date="1612206529608" expanded="true" signature="1119:1170" ph="..." />
-            <marker date="1612206529608" expanded="true" signature="1228:1237" ph="..." />
-            <marker date="1612206529608" expanded="true" signature="1346:1355" ph="..." />
-            <marker date="1612206529608" expanded="true" signature="1440:1441" ph="..." />
-            <marker date="1612206529608" expanded="true" signature="1440:1450" ph="..." />
-            <marker date="1612206529608" expanded="true" signature="1563:1564" ph="..." />
-            <marker date="1612206529608" expanded="true" signature="1563:1573" ph="..." />
-          </folding>
+        <state relative-caret-position="170">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
