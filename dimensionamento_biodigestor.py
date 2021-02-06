@@ -114,16 +114,24 @@ class methods():
 
 dim = methods()
 
-r1 = [["Largura maior da fossa: ", dim.largura_maior_da_fossa(), "[m]"],
-      ["Base da fossa: ", dim.base_da_fossa(dim.porcentagem_do_perimetro_transversal_destinado_ao_arco()), "[m]"],
-      ["Profundidade da fossa: ", dim.profundidade_da_fossa(), "[m]"],
-      ["Área transversal da fossa: ", dim.area_transversal_da_fossa(), "[m²]"],
-      ["Área total da fossa:", dim.area_total_da_fossa(), "[m²]"],
-      ["Área da campana: ", dim.area_da_campana(), "[m²]"],
-      ["Volume total do biodigestor: ", dim.volume_total_do_biodigestor(), "[m³]"],
-      ["Volume total da fossa: ", dim.volume_total_da_fossa(), "[m³]"],
-      ["Volume total destinado ao gás: ", dim.volume_total_do_gas(), "[m³]"],
-      ["Volume útil do biodigestor: ", dim.bio_vol(), "[m³]"]]
+r1 = [["Largura maior da parte liquida", dim.largura_maior_da_fossa(), "[m]"],
+      ["Base da fossa ", dim.base_da_fossa(dim.porcentagem_do_perimetro_transversal_destinado_ao_arco()), "[m]"],
+      ["Profundidade da fossa destinada aos dejetos", dim.profundidade_da_fossa(), "[m]"],
+      ["Área transversal da fossa destinada aos dejetos", dim.area_transversal_da_fossa()*0.95, "[m²]"],
+      ["Área total transversal", dim.area_total_da_fossa(), "[m²]"],
+      ["Área da campana ", dim.area_da_campana(), "[m²]"],
+      ["Volume total do biodigestor ", dim.volume_total_do_biodigestor(), "[m³]"],
+      ["Volume total da fossa ", dim.volume_total_da_fossa(), "[m³]"],
+      ["Volume total destinado ao gás ", dim.volume_total_do_gas(), "[m³]"],
+      ["Volume útil do biodigestor ", dim.bio_vol(), "[m³]"],
+      ["Volume de segurança", dim.volume_total_da_fossa()*0.05, "[m³]"],
+      ["Volume do gasômetro", dim.volume_total_do_gas()*0.95, "[m³]"],
+      ["Base menor do volume de segurança", dim.largura_maior_da_fossa(), "[m]"],
+      ["Base maior do volume de segurança", dim.largura_maior_da_fossa() + 2*0.022, "[m]"],
+      ["Altura do volume de segurança", dim.profundidade_da_fossa()*0.05, "[m]"],
+      ["Area da geomembrana para a fossa", 39.04312783 + 0.52996833108, "[m²]"],
+      ["Area da geomembrana para o gasômetro", 6.708638536-0.52996833108, "[m²]"],
+      ["Area total da geomembrana", 45.75176637, "[m²]"]]
 
 arq = open('data.csv','w')
 w = csv.writer(arq)
