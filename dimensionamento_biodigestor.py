@@ -32,7 +32,7 @@ class methods():
 
     def base_da_fossa(self, porcentagem_do_perimetro_transversal_destinado_ao_arco):
         A = porcentagem_do_perimetro_transversal_destinado_ao_arco
-        return (-1/3*A +1/3)*self.perimetro_total_transversal(self.R)
+        return (-1.0/3.0*A +1.0/3.0)*self.perimetro_total_transversal(self.R)
 
 
     def largura_maior_da_fossa(self):
