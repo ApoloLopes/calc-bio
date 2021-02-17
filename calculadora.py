@@ -11,6 +11,6 @@ A = 0.621*p**2 - 0.042*p + 0.352
 
 #print((-1*A/3 + 1/3)*P)
 #print(0.951*(-1*A/3 + 1/3)*P)
-print(2*1.8538 + 2*4.9716 + 3.5105)
-print(2.0*np.pi*R**2 + 2.0*np.pi*R*5.95)
-print((2.0*np.pi*R**2 + 2.0*np.pi*R*5.95)-(2*1.8538 + 2*4.9716 + 3.5105))
+print(2*1.8538 + 2*4.9716 + 3.5223) # area da fossa
+print(2.0*np.pi*R**2 + 2.0*np.pi*R*5.97) # area tottal
+print((2.0*np.pi*R**2 + 2.0*np.pi*R*5.97)-(2*1.8538 + 2*4.9716 + 3.5223)) # area do gasometro
