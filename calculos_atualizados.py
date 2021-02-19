@@ -2,7 +2,7 @@ import numpy as np
 
 p = 0.40  # proporção da fase gasosa desejada
 R = 1.0  # raio da bolsa plastica
-L = 5.97  # comprimento do biodigestor
+L = 5.59  # comprimento do biodigestor
 
 cd = 0.2168 #[m³/dia]
 trh = 45.0                 #[dia^-1]
